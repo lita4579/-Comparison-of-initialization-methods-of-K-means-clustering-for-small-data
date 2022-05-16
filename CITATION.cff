@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Comparison of initialization methods for K-Means
+  clustering for small data
+message: cite
+type: software
+authors:
+  - given-names: 'Liam '
+    family-names: Tabibzadeh
+    email: liam.tab7@gmail.com
+    affiliation: Uppsala University
+  - {}
