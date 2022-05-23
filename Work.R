@@ -249,7 +249,7 @@ results<-function(N,V,c,K,option){
     r<-an(m,N,V,c,K)
     stddev<-cbind(sqrt(diag(var(r[,1:4]))),sqrt(diag(var(r[,5:8]))),sqrt(diag(var(r[,9:12]))),
                   sqrt(diag(var(r[,13:16]))),sqrt(diag(var((r[,17:20])))))
-    stddev<-as.data.frame(Variance)
+    stddev<-as.data.frame(stddev)
     colnames(stddev)<-c("MeanMat","HierMethod","R","variance","ppmethod")
     return(stddev)
   }
