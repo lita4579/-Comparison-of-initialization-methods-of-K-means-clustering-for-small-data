@@ -197,7 +197,7 @@ an<-function(m,N,V,c,K){ #m=iter, N=x size, V=variables,o=overlap,K=clusters
   ppMethodmat<-matrix(NA,m,4)
   variancemmat<-matrix(NA,m,4)
   require(mclust)
-  set.seed(10)
+  
   for (i in 1:m){ 
     x<-si(N,V,c,K)
     CentersMeanm<-Meanm(x,K)
